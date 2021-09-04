@@ -217,6 +217,17 @@ button.reachoutbtn {
   letter-spacing: 0em;
   text-align: center;
 }
+button.secondarybtn {
+  background-color: #37a3a5;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+}
 
 button.reachoutbtn:hover {
   background-color: #37a3a5;
@@ -258,10 +269,27 @@ button.enquirebtn:hover {
 }
 
 .innercontentstrategyinfo {
+  position: relative;
   height: 70vh;
+}
+.innercontentstrategyinfo.transformation {
+  height: 110vh;
 }
 .innercontentstrategyinfo .inner {
   margin-top: 150px;
+}
+
+.absoluteimage {
+  position: absolute;
+  height: 644px;
+  width: 1118px;
+  left: 27px;
+  top: 456px;
+  border-radius: 0px;
+}
+
+.afterabsolute {
+  margin-top: 200px;
 }
 
 .innerbottomcontent {
@@ -477,6 +505,10 @@ button.navbar-toggler {
   border-bottom: 1px dashed #000;
 }
 
+.borderrcontent {
+  width: 85%;
+}
+
 .middlerowform {
   font-family: Roboto;
   font-size: 14px;
@@ -514,6 +546,10 @@ textarea#attendeestextarea.form-control {
   letter-spacing: -0.03em;
   text-align: left;
   width: 95%;
+}
+
+.whiteborder {
+  border: 1px solid #fff;
 }
 /*# sourceMappingURL=style.css.map */
 
@@ -630,6 +666,16 @@ textarea#attendeestextarea.form-control {
     line-height: 30px;
   }
 
+  .lightmainparagraph {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .largeheader {
+    font-size: 24px;
+    line-height: 18px;
+  }
+
   .filterinputs div.col-md-3 {
     flex: 0 0 100%;
     width: 100%;
@@ -659,5 +705,13 @@ textarea#attendeestextarea.form-control {
 
   button.enquirebtn {
     font-size: 14px;
+  }
+
+  .innercontentstrategyinfo .inner {
+    margin-top: 35px;
+  }
+
+  .innercontentstrategyinfo {
+    height: 80vh;
   }
 }
