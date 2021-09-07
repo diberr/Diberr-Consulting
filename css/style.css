@@ -64,10 +64,10 @@
 
 .mainheader2 {
   font-family: Merriweather, sans-serif;
-  font-size: 36px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 400;
-  line-height: 51px;
+  line-height: 35.5px;
   letter-spacing: -0.03em;
 }
 
@@ -97,10 +97,10 @@
 
 .mainparagraph {
   font-family: Merriweather, sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 27px;
   letter-spacing: 0em;
 }
 
@@ -115,16 +115,16 @@
 }
 
 .smallerparagraph {
-  font-family: Merriweather, sans-serif;
-  font-size: 16px;
+  font-family: Montserrat;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 23px;
+  line-height: 21px;
   letter-spacing: 0em;
 }
 
 .generalparagraph {
-  font-family: Merriweather, sans-serif;
+  font-family: Montserrat;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -133,7 +133,7 @@
 }
 
 .boldsmallerparagraph {
-  font-family: Merriweather;
+  font-family: Montserrat;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -154,20 +154,20 @@
 
 .largestheader {
   font-family: Merriweather;
-  font-size: 55px;
+  font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 69px;
+  line-height: 45px;
   letter-spacing: 0em;
   text-align: left;
 }
 
 .smallerlargeheader {
   font-family: Merriweather;
-  font-size: 40px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
-  line-height: 50px;
+  line-height: 37px;
   letter-spacing: 0em;
   text-align: left;
 }
@@ -193,7 +193,7 @@
 }
 
 .navcontents {
-  width: 50%;
+  width: 45%;
 }
 .navcontents li {
   list-style-type: none;
@@ -203,7 +203,7 @@
 }
 
 .buttoncontent {
-  width: 19%;
+  width: 16%;
   margin-right: 100px;
 }
 
@@ -217,6 +217,17 @@ button.reachoutbtn {
   letter-spacing: 0em;
   text-align: center;
 }
+button.reachoutbtn2 {
+  background-color: #b6ca3a;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
 button.secondarybtn {
   background-color: #37a3a5;
   color: #fff;
@@ -229,15 +240,17 @@ button.secondarybtn {
   text-align: center;
 }
 
-button.reachoutbtn:hover {
+button.reachoutbtn:hover,
+button.reachoutbtn2:hover {
   background-color: #37a3a5;
+  color: #fff;
 }
 
 button.enquirebtn {
   background-color: #225779;
   color: #fff;
   font-family: Montserrat;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 24px;
@@ -262,7 +275,7 @@ button.enquirebtn:hover {
 }
 
 .innercontent {
-  height: 60vh;
+  height: 40vh;
 }
 .innercontent h1 {
   font-weight: 700;
@@ -387,7 +400,7 @@ footer {
   border: none;
   padding: 12px 20px;
   font-family: Montserrat;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 20px;
@@ -403,7 +416,7 @@ footer {
 }
 .fieldInput .form-submit {
   font-family: Montserrat;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 20px;
@@ -551,6 +564,38 @@ textarea#attendeestextarea.form-control {
 .whiteborder {
   border: 1px solid #fff;
 }
+
+.greycheckbox {
+  color: #edeeee !important;
+}
+
+.squareimages {
+  width: 200px;
+  height: 205px !important;
+}
+
+/* overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  z-index: 10099;
+  display: none;
+  overflow: auto;
+  margin: 0;
+  opacity: 100%;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+.menu {
+  width: 100%;
+  height: 100%;
+  opacity: 100%;
+}
+
+/*  */
+
 /*# sourceMappingURL=style.css.map */
 
 @media (max-width: 720px) {
