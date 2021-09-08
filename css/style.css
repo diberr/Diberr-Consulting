@@ -7,13 +7,21 @@
 .left-content {
   width: 5%;
   height: 100vh;
+  z-index: 11 !important;
   position: fixed;
   left: 0px;
   background-color: #37a3a5;
 }
 
+.closemenucontent {
+  width: 5% !important;
+  height: 100vh;
+  position: fixed;
+}
+
 .bodycontent {
   overflow-x: hidden;
+  position: relative;
   height: 100%;
 }
 
@@ -43,7 +51,7 @@
 }
 
 .secondarycolorbg {
-  background-color: #37a3a5;
+  background-color: #37a3a5 !important;
 }
 
 .primarycolorbg {
@@ -169,6 +177,16 @@
   font-weight: 700;
   line-height: 37px;
   letter-spacing: 0em;
+  text-align: left;
+}
+
+.menuheader {
+  font-family: Merriweather;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -0.03em;
   text-align: left;
 }
 
@@ -437,9 +455,16 @@ footer {
 .yaxisspacing {
   margin-top: 80px;
 }
+.yaxisspacing2 {
+  margin-top: 180px;
+}
 
 .menuskew {
   transform: rotate(90deg);
+}
+
+.menuskew:hover {
+  color: #225779 !important;
 }
 
 input.secondaryinput,
@@ -578,15 +603,15 @@ textarea#attendeestextarea.form-control {
 .overlay {
   position: fixed;
   top: 0;
-  z-index: 10099;
+  z-index: 10;
   display: none;
-  overflow: auto;
+  overflow-x: hidden;
   margin: 0;
   opacity: 100%;
   padding: 0;
   width: 100%;
   height: 100%;
-  background: #000;
+  background: #225779;
 }
 .menu {
   width: 100%;
@@ -594,6 +619,54 @@ textarea#attendeestextarea.form-control {
   opacity: 100%;
 }
 
+.btn-open:after {
+  color: #fff;
+  content: 'Menu';
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  -webkit-transition: all 0.2s linear 0s;
+  -moz-transition: all 0.2s linear 0s;
+  -o-transition: all 0.2s linear 0s;
+  transition-property: all 0.2s linear 0s;
+}
+.btn-open:hover {
+  text-decoration: none;
+  color: #225779;
+}
+
+.box {
+  background-color: #243d4d;
+}
+
+.box a {
+  text-decoration: none;
+}
+
+div.box:hover {
+  background-color: #37a3a5 !important;
+}
+
+div.box:hover a h3 {
+  color: #fff !important;
+}
+
+.whitetext {
+  color: #fff;
+}
+
+.generallinks:hover {
+  text-decoration: none;
+  color: #37a3a5;
+}
+
+.box a:hover {
+  text-decoration: none;
+  background-color: #37a3a5 !important;
+}
 /*  */
 
 /*# sourceMappingURL=style.css.map */
@@ -620,6 +693,11 @@ textarea#attendeestextarea.form-control {
     width: 95%;
     list-style-type: none;
     text-decoration: none;
+  }
+}
+@media (max-width: 990px) {
+  .yaxisspacing2 {
+    margin-top: 18px;
   }
 }
 
