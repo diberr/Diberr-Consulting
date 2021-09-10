@@ -525,7 +525,7 @@ div.yaxisspacing {
 .contactusabsolute {
   position: absolute;
   top: 0px;
-  left: 600px;
+  left: 650px;
 }
 
 .menuskew:hover {
@@ -726,6 +726,7 @@ textarea#attendeestextarea.form-control {
 
 .linkhoverdark:hover {
   text-decoration: none;
+  color: #225779 !important;
 }
 
 .left-content ul li {
