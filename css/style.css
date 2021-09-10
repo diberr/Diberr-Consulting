@@ -815,6 +815,10 @@ div.box:hover a h3 {
     line-height: 25px;
   }
 
+  .logoimage {
+    width: 25%;
+  }
+
   .menuheader {
     font-size: 16px;
     line-height: 24px;
