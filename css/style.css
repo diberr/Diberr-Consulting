@@ -515,17 +515,17 @@ div.yaxisspacing {
 
 .menulinecontent {
   border-bottom: 1.5px solid #fff;
-  width: 73vh;
+  width: 65vh;
   height: 5%;
   position: absolute;
-  top: 14px;
+  top: 10px;
   left: 70px;
 }
 
 .contactusabsolute {
   position: absolute;
   top: 0px;
-  left: 720px;
+  left: 500px;
 }
 
 .menuskew:hover {
@@ -712,7 +712,6 @@ textarea#attendeestextarea.form-control {
 
 .btn-open:after {
   color: #fff;
-  content: 'Menu';
   font-family: Montserrat;
   font-size: 14px;
   font-style: normal;
@@ -723,6 +722,14 @@ textarea#attendeestextarea.form-control {
   -moz-transition: all 0.2s linear 0s;
   -o-transition: all 0.2s linear 0s;
   transition-property: all 0.2s linear 0s;
+}
+
+.linkhoverdark:hover {
+  text-decoration: none;
+}
+
+.left-content ul li {
+  list-style-type: none;
 }
 /* 
 .btn-mobile-open:after {
