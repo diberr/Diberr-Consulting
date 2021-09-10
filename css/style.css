@@ -114,7 +114,7 @@
 
 .lightmainparagraph {
   font-family: Montserrat;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 300;
   line-height: 30px;
@@ -192,7 +192,7 @@
 
 .largeheader {
   font-family: Montserrat;
-  font-size: 90px;
+  font-size: 60px;
   font-style: normal;
   font-weight: 400;
   line-height: 46px;
@@ -288,8 +288,10 @@ button.enquirebtnsmaller {
   text-align: center;
 }
 
+button.enquirebtnsmaller:hover,
 button.enquirebtn:hover {
   background-color: #37a3a5;
+  color: #fff;
 }
 
 .innercontent {
@@ -557,7 +559,7 @@ button.navbar-toggler {
   text-align: left;
 }
 .middlerowform input[type='text'],
-input[type='email'] {
+.middlerowform input[type='email'] {
   background: #edeeee;
   border-radius: 16px;
   padding: 23px 20px;
@@ -569,6 +571,26 @@ input[type='email'] {
   line-height: 19px;
   letter-spacing: -0.03em;
   text-align: left;
+}
+
+.middlerowform select {
+  background: #edeeee;
+  width: 96%;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 19px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  height: 50px;
+  color: #5f5d5d;
+}
+
+.middlerowform .alignicons::after {
+  color: #225779;
+  right: 50px;
+  bottom: 15px;
 }
 
 textarea#attendeestextarea.form-control {
@@ -835,6 +857,6 @@ div.box:hover a h3 {
   }
 
   .innercontentstrategyinfo {
-    height: 80vh;
+    height: 85vh;
   }
 }
