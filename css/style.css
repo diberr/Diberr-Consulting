@@ -238,6 +238,10 @@
   letter-spacing: -0.03em;
 }
 
+.darkcolor2 {
+  color: #111;
+}
+
 .navcontents {
   width: 40%;
 }
@@ -323,7 +327,10 @@ button.enquirebtn:hover {
 }
 
 .innercontent {
-  height: 40vh;
+  height: 60vh;
+}
+.innercontentexpertthinking {
+  height: 45vh;
 }
 .innercontent h1 {
   font-weight: 700;
@@ -451,10 +458,11 @@ button.enquirebtn:hover {
   left: 480px;
 }
 
-.detailssection {
+.detailscontainer {
   position: relative;
+  margin-bottom: 500px;
 }
-.detailssection .imagefounder {
+.detailssection {
   position: absolute;
   top: -150px;
   right: 150px;
@@ -465,6 +473,11 @@ button.enquirebtn:hover {
   top: -150px;
   left: 10px;
 } */
+
+div.imagecontrol {
+  width: 1200px;
+  height: 200px;
+}
 
 .detailssection p {
   padding-bottom: 160px;
@@ -672,11 +685,12 @@ select::-ms-expand {
   content: '\f309';
   font-family: 'FontAwesome';
   position: absolute;
-  bottom: 6px;
+  bottom: 10px;
   right: 1px;
   padding: 0 1em;
   cursor: pointer;
-  font-size: 12px;
+  color: #243d4d;
+  font-size: 11px;
   pointer-events: none;
   -webkit-transition: 0.25s all ease;
   -o-transition: 0.25s all ease;
@@ -728,11 +742,11 @@ button.navbar-toggler {
   border-radius: 16px;
   padding: 23px 20px;
   width: 90%;
-  font-family: Roboto;
+  font-family: Montserrat;
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
-  line-height: 19px;
+  line-height: 17px;
   letter-spacing: -0.03em;
   text-align: left;
 }
@@ -740,13 +754,14 @@ button.navbar-toggler {
 .middlerowform select {
   background: #edeeee;
   width: 96%;
-  font-family: Roboto;
+  font-family: Montserrat;
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
-  line-height: 19px;
+  line-height: 17px;
   letter-spacing: -0.03em;
   text-align: left;
+
   height: 50px;
   color: #5f5d5d;
 }
