@@ -229,7 +229,7 @@
 }
 
 .navcontents {
-  width: 45%;
+  width: 40%;
 }
 .navcontents li {
   list-style-type: none;
@@ -341,6 +341,17 @@ button.enquirebtn:hover {
   max-width: 100%;
 }
 
+.absoluteimage2 {
+  position: absolute;
+  left: 47px;
+  top: 656px;
+  border-radius: 0px;
+}
+
+.absoluteimage2 img {
+  max-width: 100%;
+}
+
 @media (max-width: 1340px) {
   .absoluteimage img {
     max-width: 80%;
@@ -367,9 +378,43 @@ button.enquirebtn:hover {
     max-width: 85%;
   }
 }
+@media (max-width: 1340px) {
+  .absoluteimage2 img {
+    max-width: 80%;
+  }
+
+  .absoluteimage2 {
+    top: 556px;
+    border-radius: 0px;
+  }
+}
+@media (max-width: 804px) {
+  .absoluteimage2 {
+    top: 756px;
+    border-radius: 0px;
+  }
+
+  div.afterabsolute2 {
+    margin-top: 250px;
+  }
+}
+@media (max-width: 586px) {
+  .absoluteimage2 {
+    top: 856px;
+    left: 7px;
+    border-radius: 0px;
+  }
+  .absoluteimage2 img {
+    max-width: 85%;
+  }
+}
 
 .afterabsolute {
   margin-top: 200px;
+}
+
+.afterabsolute2 {
+  margin-top: 400px;
 }
 
 .innerbottomcontent {
@@ -455,6 +500,10 @@ button.enquirebtn:hover {
 .whiteborderbottom {
   border-bottom: 1.5px solid #fff;
   padding-bottom: 25px;
+}
+
+.primaryborder {
+  border: 1px solid #225779;
 }
 
 .relativecontainer {
