@@ -520,6 +520,18 @@ button.enquirebtn:hover {
   right: 249px;
 }
 
+@media (max-width: 630px) {
+  .smallerline {
+    right: 209px;
+  }
+}
+
+@media (max-width: 541px) {
+  .smallerline {
+    right: 189px;
+  }
+}
+
 footer {
   background-color: #7a8d99;
 }
