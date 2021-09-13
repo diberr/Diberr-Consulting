@@ -286,10 +286,10 @@ button.enquirebtn {
   background-color: #225779;
   color: #fff;
   font-family: Montserrat;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 20px;
   letter-spacing: 0em;
   text-align: center;
 }
@@ -332,11 +332,40 @@ button.enquirebtn:hover {
 
 .absoluteimage {
   position: absolute;
-  height: 644px;
-  width: 1118px;
-  left: 27px;
+  left: 47px;
   top: 456px;
   border-radius: 0px;
+}
+
+.absoluteimage img {
+  max-width: 100%;
+}
+
+@media (max-width: 1340px) {
+  .absoluteimage img {
+    max-width: 80%;
+  }
+
+  .absoluteimage {
+    top: 556px;
+    border-radius: 0px;
+  }
+}
+@media (max-width: 804px) {
+  .absoluteimage {
+    top: 756px;
+    border-radius: 0px;
+  }
+}
+@media (max-width: 586px) {
+  .absoluteimage {
+    top: 856px;
+    left: 7px;
+    border-radius: 0px;
+  }
+  .absoluteimage img {
+    max-width: 85%;
+  }
 }
 
 .afterabsolute {
@@ -484,7 +513,7 @@ footer {
   text-align: left;
   color: #6a7c92;
   position: absolute;
-  right: 42px;
+  right: 62px;
   top: 0;
   width: 70px;
   height: 50px;
@@ -955,7 +984,7 @@ div.box:hover a h3 {
   }
 
   button.enquirebtn {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .innercontentstrategyinfo .inner {
