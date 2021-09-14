@@ -650,13 +650,28 @@ div.yaxisspacing {
 
 .contactusabsolute {
   position: absolute;
-  top: 0px;
+  top: -5px;
   left: 650px;
 }
 
 @media (max-height: 815px) {
   .contactusabsolute {
     left: 550px;
+  }
+}
+@media (max-height: 660px) {
+  .contactusabsolute {
+    left: 450px;
+  }
+}
+@media (max-height: 560px) {
+  .contactusabsolute {
+    left: 350px;
+  }
+}
+@media (max-height: 460px) {
+  .contactusabsolute {
+    left: 250px;
   }
 }
 
