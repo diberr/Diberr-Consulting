@@ -127,7 +127,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
-  line-height: 30px;
+  line-height: 27px;
   letter-spacing: -0.03em;
   text-align: left;
 }
@@ -350,12 +350,12 @@ button.enquirebtn:hover {
 .absoluteimage {
   position: absolute;
   left: 47px;
-  top: 456px;
+  top: 556px;
   border-radius: 0px;
 }
 
 .absoluteimage img {
-  max-width: 100%;
+  max-width: 90%;
 }
 
 .absoluteimage2 {
@@ -377,6 +377,17 @@ button.enquirebtn:hover {
   .absoluteimage {
     top: 556px;
     border-radius: 0px;
+  }
+}
+@media (max-height: 815px) {
+  .absoluteimage {
+    top: 486px;
+    border-radius: 0px;
+  }
+}
+@media (max-height: 750px) {
+  .absoluteimage {
+    top: 396px;
   }
 }
 @media (max-width: 804px) {
@@ -427,7 +438,7 @@ button.enquirebtn:hover {
 }
 
 .afterabsolute {
-  margin-top: 200px;
+  margin-top: 250px;
 }
 
 .afterabsolute2 {
@@ -462,25 +473,22 @@ button.enquirebtn:hover {
   position: relative;
   margin-bottom: 500px;
 }
-.detailssection {
+/* .detailssection {
   position: absolute;
   top: -150px;
   right: 150px;
-}
+  width: 1200px;
+  height: 200px;
+} */
 
-/* .detailssection .imagefounder {
+.detailssection .imagefounder {
   position: absolute;
   top: -150px;
   left: 10px;
-} */
-
-div.imagecontrol {
-  width: 1200px;
-  height: 200px;
 }
 
 .detailssection p {
-  padding-bottom: 160px;
+  padding-bottom: 150px;
 }
 
 .expandingimage {
@@ -523,6 +531,10 @@ div.imagecontrol {
 .whiteborderbottom {
   border-bottom: 1.5px solid #fff;
   padding-bottom: 25px;
+}
+
+.whitebordertop {
+  border-top: 1.5px solid #fff;
 }
 
 .primaryborder {
@@ -640,6 +652,12 @@ div.yaxisspacing {
   position: absolute;
   top: 0px;
   left: 650px;
+}
+
+@media (max-height: 815px) {
+  .contactusabsolute {
+    left: 550px;
+  }
 }
 
 .menuskew:hover {
@@ -1079,6 +1097,10 @@ div.box:hover a h3 {
   }
 
   .innercontentstrategyinfo {
-    height: 85vh;
+    height: 95vh;
+  }
+
+  .downmargin {
+    height: 145vh;
   }
 }
