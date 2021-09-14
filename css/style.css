@@ -547,6 +547,12 @@ button.enquirebtn:hover {
   left: 10px;
 }
 
+.detailssection .col-lg-7 {
+  -ms-flex: 0 0 31.666667%;
+  flex: 0 0 31.666667%;
+  max-width: 31.666667%;
+}
+
 .detailssection p {
   padding-bottom: 150px;
 }
