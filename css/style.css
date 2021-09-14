@@ -245,6 +245,66 @@
 .navcontents {
   width: 40%;
 }
+
+@media (max-width: 1122px) {
+  .navcontents {
+    width: 50%;
+  }
+}
+
+@media (max-width: 923px) {
+  .navcontents {
+    width: 65%;
+  }
+}
+@media (max-width: 768px) {
+  div.navcontentslargescreen {
+    display: none !important;
+  }
+}
+@media (max-width: 991px) {
+  .smallerspacing {
+    margin-left: 20px;
+  }
+  .othersmallerspacing {
+    margin-left: 51px;
+  }
+}
+@media (max-width: 909px) {
+  .othersmallerspacing {
+    margin-left: 47px;
+  }
+}
+@media (max-width: 870px) {
+  .othersmallerspacing {
+    margin-left: 42px;
+  }
+}
+@media (max-width: 700px) {
+  .othersmallerspacing {
+    margin-left: 38px;
+  }
+}
+@media (max-width: 667px) {
+  .othersmallerspacing {
+    margin-left: 33px;
+  }
+}
+@media (max-width: 576px) {
+  .othersmallerspacing {
+    margin-left: 31px;
+  }
+}
+@media (max-width: 500px) {
+  .othersmallerspacing {
+    margin-left: 21px;
+  }
+}
+@media (max-width: 991px) {
+  .closemenucontent ul {
+    display: none;
+  }
+}
 .navcontents li {
   list-style-type: none;
 }
@@ -611,7 +671,6 @@ footer {
   position: absolute;
   right: 62px;
   top: 0;
-  z-index: 35;
   width: 70px;
   height: 50px;
   border-radius: 17px;
@@ -901,6 +960,10 @@ textarea#attendeestextarea.form-control {
   background-color: #243d4d;
 }
 
+.darkbgcolor {
+  background-color: #243d4d;
+}
+
 .box a {
   text-decoration: none;
 }
@@ -938,14 +1001,6 @@ div.box:hover a h3 {
   }
 }
 @media (max-width: 750px) {
-  div.navcontentslargescreen {
-    display: none !important;
-  }
-
-  .navbarmobile {
-    display: block;
-  }
-
   .listmobile {
     list-style-type: none;
   }
