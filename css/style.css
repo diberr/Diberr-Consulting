@@ -852,6 +852,11 @@ div.yaxisspacing {
     left: 550px;
   }
 }
+@media (max-height: 1060px) {
+  .contactusabsolute {
+    left: 640px;
+  }
+}
 @media (max-height: 660px) {
   .contactusabsolute {
     left: 450px;
@@ -1003,11 +1008,11 @@ textarea#attendeestextarea.form-control {
   border-radius: 20px;
   padding: 16px;
   width: 360px;
-  font-family: Roboto;
-  font-size: 16px;
+  font-family: Montserrat;
+  font-size: 14px;
   font-style: normal;
   font-weight: 300;
-  line-height: 19px;
+  line-height: 17px;
   letter-spacing: -0.03em;
   text-align: left;
   width: 95%;
