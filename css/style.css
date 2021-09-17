@@ -529,6 +529,41 @@ button.enquirebtn:hover {
   left: 160px;
 }
 
+@media (max-width: 1450px) {
+  .verticalmintline {
+    top: 90px;
+    left: 130px;
+  }
+}
+@media (max-width: 1227px) {
+  .verticalmintline {
+    top: 50px;
+    width: 15%;
+    left: 160px;
+  }
+}
+@media (max-width: 1170px) {
+  .verticalmintline {
+    top: 50px;
+    width: 15%;
+    left: 150px;
+  }
+}
+@media (max-width: 1091px) {
+  .verticalmintline {
+    top: 50px;
+    width: 15%;
+    left: 130px;
+  }
+}
+@media (max-width: 953px) {
+  .verticalmintline {
+    top: 50px;
+    width: 15%;
+    left: 100px;
+  }
+}
+
 .detailscontainer {
   position: relative;
   margin-bottom: 500px;
@@ -586,10 +621,14 @@ button.enquirebtn:hover {
   .detailsrel {
     height: 100vh;
   }
+  .verticalmintline {
+    top: 80px;
+    width: 15%;
+    left: 270px;
+  }
 
-  .innerbottomcontent .verticalmintline {
-    bottom: 65px;
-    left: 480px;
+  h2.newtop {
+    margin-top: 150px !important;
   }
 }
 
@@ -675,7 +714,7 @@ button.enquirebtn:hover {
   width: 60px;
   transform: rotate(90deg);
   bottom: -55px;
-  right: 249px;
+  right: 259px;
 }
 
 @media (max-width: 630px) {
