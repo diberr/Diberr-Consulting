@@ -632,6 +632,10 @@ button.enquirebtn:hover {
   }
 }
 
+.valueheight {
+  height: 50px;
+}
+
 .stayingrelevant {
   position: relative;
 }
@@ -715,6 +719,34 @@ button.enquirebtn:hover {
   transform: rotate(90deg);
   bottom: -55px;
   right: 259px;
+}
+
+@media (max-width: 1382px) {
+  .smallerline {
+    right: 200px;
+  }
+}
+
+@media (max-width: 1182px) {
+  .smallerline {
+    right: 150px;
+  }
+}
+@media (max-width: 852px) {
+  .smallerline {
+    right: 80px;
+  }
+}
+@media (max-width: 842px) {
+  .smallerline {
+    right: 50px;
+  }
+}
+
+@media (max-width: 969px) {
+  .smallerline {
+    right: 120px;
+  }
 }
 
 @media (max-width: 630px) {
