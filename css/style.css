@@ -520,13 +520,13 @@ button.enquirebtn:hover {
   bottom: 142px;
   right: 135px;
 }
-.innerbottomcontent .verticalmintline {
-  border-right: 1.5px solid #37a3a5;
-  width: 40%;
-  height: 100px;
+.verticalmintline {
+  border-bottom: 1px solid #37a3a5;
+  width: 25%;
+  transform: rotate(90deg);
   position: absolute;
-  bottom: -65px;
-  left: 480px;
+  top: 90px;
+  left: 160px;
 }
 
 .detailscontainer {
@@ -537,6 +537,17 @@ button.enquirebtn:hover {
   height: 60vh;
 }
 
+@media (max-height: 726px) {
+  .detailsrel {
+    height: 80vh;
+  }
+}
+@media (max-height: 726px) {
+  .detailsrel {
+    height: 90vh;
+    margin-top: 50px;
+  }
+}
 @media (max-width: 1230px) {
   .detailssection .d-flex .othercol img {
     width: 500px;
@@ -582,6 +593,10 @@ button.enquirebtn:hover {
   }
 }
 
+.stayingrelevant {
+  position: relative;
+}
+
 /* .detailssection {
   position: absolute;
   top: -150px;
@@ -596,7 +611,7 @@ button.enquirebtn:hover {
 }
 
 .detailssection p {
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 
 .expandingimage {
