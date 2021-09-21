@@ -349,6 +349,10 @@ button.secondarybtn {
   letter-spacing: 0em;
   text-align: center;
 }
+button.secondarybtn:hover {
+  background-color: #b6ca3a;
+  color: #fff;
+}
 
 button.reachoutbtn:hover,
 button.reachoutbtn2:hover {
@@ -398,19 +402,17 @@ button.enquirebtn:hover {
 
 .innercontentstrategyinfo {
   position: relative;
-  height: 70vh;
+  height: 120vh;
 }
-.innercontentstrategyinfo.transformation {
-  height: 110vh;
-}
+
 .innercontentstrategyinfo .inner {
   margin-top: 150px;
 }
 
 .absoluteimage {
   position: absolute;
-  left: 47px;
-  top: 556px;
+  left: 87px;
+  top: 606px;
   border-radius: 0px;
 }
 
@@ -420,13 +422,24 @@ button.enquirebtn:hover {
 
 .absoluteimage2 {
   position: absolute;
-  left: 47px;
-  top: 656px;
+  left: 87px;
+  top: 606px;
   border-radius: 0px;
 }
 
 .absoluteimage2 img {
-  max-width: 100%;
+  max-width: 90%;
+}
+
+@media (max-height: 782px) {
+  .absoluteimage2 {
+    left: 87px;
+    top: 456px;
+  }
+
+  .afterabsolute2 {
+    margin-bottom: 850px !important;
+  }
 }
 
 @media (max-width: 1340px) {
@@ -498,11 +511,11 @@ button.enquirebtn:hover {
 }
 
 .afterabsolute {
-  margin-top: 250px;
+  margin-top: 270px;
 }
 
 .afterabsolute2 {
-  margin-top: 400px;
+  margin-top: 270px;
 }
 
 .innerbottomcontent {
@@ -1156,6 +1169,13 @@ div.box:hover a h3 {
 }
 
 @media (max-width: 768px) {
+  .filterinputs div.col-md-3 {
+    flex: 0 0 100%;
+    width: 100%;
+    border: none;
+  }
+}
+@media (max-width: 768px) {
   .mainlogo {
     height: 28.276811599731445px;
     width: 74px;
@@ -1268,12 +1288,6 @@ div.box:hover a h3 {
   .largeheader {
     font-size: 24px;
     line-height: 18px;
-  }
-
-  .filterinputs div.col-md-3 {
-    flex: 0 0 100%;
-    width: 100%;
-    border: none;
   }
 
   button.submit {
