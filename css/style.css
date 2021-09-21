@@ -509,6 +509,26 @@ button.enquirebtn:hover {
     max-width: 85%;
   }
 }
+@media (max-width: 1336px) {
+  .absoluteimage2 {
+    top: 156px;
+    left: 7px;
+    border-radius: 0px;
+  }
+  .innercontentstrategyinfo {
+    height: 80vh;
+  }
+}
+@media (max-width: 883px) {
+  .absoluteimage2 {
+    top: 156px;
+    left: 0px;
+    border-radius: 0px;
+  }
+  .innercontentstrategyinfo {
+    height: 20vh;
+  }
+}
 
 .afterabsolute {
   margin-top: 270px;
@@ -867,7 +887,7 @@ div.yaxisspacing {
 }
 @media (max-height: 1060px) {
   .contactusabsolute {
-    left: 640px;
+    left: 740px;
   }
 }
 @media (max-height: 660px) {
@@ -1320,10 +1340,15 @@ div.box:hover a h3 {
   }
 
   .innercontentstrategyinfo {
-    height: 95vh;
+    height: 85vh;
   }
 
+  .absoluteimage {
+    left: 27px;
+  }
+
+  /* 
   .downmargin {
     height: 145vh;
-  }
+  } */
 }
